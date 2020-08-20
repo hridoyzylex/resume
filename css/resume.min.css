@@ -5,16 +5,18 @@
  */
 
 body {
-    font-family: Muli, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    padding-top: 54px;
-    color: #868e96
+  font-family: Muli, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  padding-top: 54px;
+  color: #868e96;
 }
 
-@media (min-width:992px) {
-    body {
-        padding-top: 0;
-        padding-left: 17rem
-    }
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
 }
 
 h1,
@@ -23,246 +25,248 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
 }
 
 h1 {
-    font-size: 6rem;
-    line-height: 5.5rem
+  font-size: 6rem;
+  line-height: 5.5rem;
 }
 
 h2 {
-    font-size: 3.5rem
+  font-size: 3.5rem;
 }
 
 h3 {
-    font-size: 2rem
+  font-size: 2rem;
 }
 
 p.lead {
-    font-size: 1.15rem;
-    font-weight: 400
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .subheading {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    font-size: 1.5rem
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
 }
 
 .social-icons a {
-    display: inline-block;
-    height: 3.5rem;
-    width: 3.5rem;
-    background-color: #38908F;
-    color: #fff !important;
-    border-radius: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 3.5rem;
-    margin-right: 1rem
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #38908f;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
 }
 
 .social-icons a:last-child {
-    margin-right: 0
+  margin-right: 0;
 }
 
 .social-icons a:hover {
-    background-color: #E08963;
+  background-color: #e08963;
 }
 
 .dev-icons {
-    font-size: 3rem;
-    color: #38908F;
+  font-size: 3rem;
+  color: #38908f;
 }
 
 .dev-icons .list-inline-item i:hover {
-    color: #E08963;
+  color: #e08963;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
-    font-weight: 800;
-    letter-spacing: .05rem;
-    text-transform: uppercase
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
 }
 
 #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+  outline-color: #d48a6e;
 }
 
-@media (min-width:992px) {
-    #sideNav {
-        text-align: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: 17rem;
-        height: 100vh
-    }
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
 
-    #sideNav .navbar-brand {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin: auto auto 0;
-        padding: .5rem
-    }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
 
-    #sideNav .navbar-brand .img-profile {
-        max-width: 10rem;
-        max-height: 10rem;
-        border: .5rem solid #B2EBe0;
-    }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid #b2ebe0;
+  }
 
-    #sideNav .navbar-collapse {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        -webkit-box-flex: 0;
-        -ms-flex-positive: 0;
-        flex-grow: 0;
-        width: 100%;
-        margin-bottom: auto
-    }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
 
-    #sideNav .navbar-collapse .navbar-nav {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: 100%
-    }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    #sideNav .navbar-collapse .navbar-nav .nav-item {
-        display: block
-    }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
 
-    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-        display: block
-    }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
 }
 
 section.resume-section {
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important;
-    max-width: 75rem
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
 }
 
 section.resume-section .resume-item .resume-date {
-    min-width: none
+  min-width: none;
 }
 
-@media (min-width:768px) {
-    section.resume-section {
-        min-height: 100vh
-    }
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
 
-    section.resume-section .resume-item .resume-date {
-        min-width: 18rem
-    }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
 }
 
-@media (min-width:992px) {
-    section.resume-section {
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important
-    }
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
 }
 
 .bg-primary {
-    background-color: #38908F !important
+  background-color: #38908f !important;
 }
 
 .text-primary {
-    color: #E08963 !important
+  color: #e08963 !important;
 }
 
 a {
-    color: #bd5d38
+  color: #bd5d38;
 }
 
 a:active,
 a:focus,
 a:hover {
-    color: #824027;
+  color: #824027;
 }
 
 .mb-0 {
-    /* color: #38908F; */
-    color: #E08963;
+  /* color: #38908F; */
+  color: #e08963;
 }
 
 .mb-5 {
-    color: #38908F;
+  color: #38908f;
 }
 
 table,
 th,
 td {
-    border: 2px solid #38908F;
-    padding: 0%;
-    text-align: center;
+  border: 2px solid #38908f;
+  padding: 0%;
+  text-align: center;
 }
 
 th {
-    text-align: center;
+  text-align: center;
 }
 
 .nestedTable {
-    border: none;
+  border: none;
 }
 
 .nestedTableRow {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .nestedTableRow tr:last-child {
-    border-bottom: none;
-    border: none;
+  border-bottom: none;
+  border: none;
 }
 
 .otherTools {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 .otherToolsIcons {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .languageProficiency {
-    padding: 5px;
+  padding: 5px;
 }
 
 div.polaroid {
-    width: 400px;
-    max-width: 400px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 25px;
-    margin-right: 25px;
-    display: inline-block;
-
+  width: 400px;
+  max-width: 400px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 25px;
+  display: inline-block;
 }
 
 div.container {
-    text-align: center;
-    padding: 10px 20px;
+  text-align: center;
+  padding: 10px 20px;
 }
