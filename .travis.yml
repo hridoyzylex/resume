@@ -2,9 +2,10 @@ language:      node_js
 git:
   depth:       3
 node_js:
-  - "node"
-install:       npm install
+  - "20"
+install:       npm ci
 script:
+  - npm audit --audit-level=high
   - npm test
   - gulp
 cache:
